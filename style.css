@@ -1,0 +1,73 @@
+.header {
+    padding: 20px 0px; 
+    background-color: #9987b7;
+}
+
+body {
+    padding: 0px 11px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+
+.searchArea{
+    
+    background-color: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 300px;
+}
+
+#search{
+    border: none;
+    width: 100%;
+    padding-bottom: 12px;
+}
+
+#submit{
+    border: none;
+    background: blue;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10%;
+    margin-top: 18px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.main{
+    padding: 0px 16px;
+}
+
+.pageTitle{
+    color: white;
+    font-size: 60px;
+}
+
+.weatherTitle{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.recipe-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.card-div {
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px #333333;
+    margin: 0px 20px;
+    border-radius: 5%;
+}
+
+.top3 {
+    margin-bottom: 25px;
+}
+
+.card-img-top {
+    margin-top: 15px;
+    border-radius: 8%;
+}
