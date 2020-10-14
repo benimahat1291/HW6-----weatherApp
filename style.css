@@ -25,15 +25,10 @@ img{
     padding-bottom: 12px;
 }
 
-#submit{
-    border: none;
-    background: blue;
-    padding: 10px;
-    color: white;
-    font-weight: bold;
+.button{
+    background-color:gray;
     border-radius: 10%;
-    margin-top: 18px;
-    box-shadow: 0px 0px 5px black;
+
 }
 
 .main{
