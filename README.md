@@ -28,27 +28,27 @@ THEN I am presented with the last searched city forecast
 ```
 ## Required/Repo Files
 To sucessfully run this program you will need
-> index.html
-> script.js
-> style.css
-> README.md(optional)
-> demo.png(optional)
+* index.html
+* script.js
+* style.css
+* README.md(optional)
+* demo.png(optional)
 
 ## Current Functionality
-> HTML elements populate
-> City search for weather
-> Weather info displayed
-> Forcast info displayed
-> History section populates
+* HTML elements populate
+* City search for weather
+* Weather info displayed
+* Forcast info displayed
+* History section populates
 
 ## Missing Functionality
->History buttons cant be used to show weather/forcast
->UV index is not displayed
+*History buttons cant be used to show weather/forcast
+*UV index is not displayed
 
 ## Improvements
->add error if city is not in API call
->allow user to specify State/country
->Imporve general styling
+*add error if city is not in API call
+*allow user to specify State/country
+*Imporve general styling
 
 ## developer
 
