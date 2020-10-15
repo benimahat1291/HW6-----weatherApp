@@ -82,10 +82,10 @@ $(document).ready(function () {
                     img.addClass("img");
                     citydiv.append(img)
                     //write information into the created html elements
-                    var datediv = $("<div>").html(todaydate);
-                    var tempdiv = $("<div>").html(response.main.temp);
-                    var humiddiv = $("<div>").html(response.main.humidity);
-                    var winddiv = $("<div>").html(response.wind.speed);
+                    var datediv = $("<div>").html("DATE: " + todaydate);
+                    var tempdiv = $("<div>").html("TEMPERATURE: " + response.main.temp + "F");
+                    var humiddiv = $("<div>").html("HUMIDITY: "+ response.main.humidity + "%");
+                    var winddiv = $("<div>").html("WIND SPEED: "+response.wind.speed + "MPH");
                     report.append(datediv, tempdiv, humiddiv, winddiv);
 
                     var rowcontainer = $("<section>");

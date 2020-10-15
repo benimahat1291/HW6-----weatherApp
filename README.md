@@ -1,18 +1,15 @@
 # 06 Server-Side APIs: Weather Dashboard
 
-Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+In this Homework assignment we were tasked to fully deploy our understanding of Jqerry. We had to dynamicly manipulate the DOM. we had to utilize the resourse that is API calls to power our webpage with a huge database of information. We also had to use our local storage to store and retrieve information
 
-Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that will provide basic setup and usage instructions. Use `localStorage` to store any persistent data.
+Check "demo.png" to view deployed webpage
 
-## User Story
-
+## General Criteria
 ```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+We want a Web page that given a city will give us detailed information about he current weather and about the 5 day forcast. We also want to be able to recall past searches and use that as another method of displaying the cities weather and forcast. 
 ```
 
-## Acceptance Criteria
+## Given Criteria
 
 ```
 GIVEN a weather dashboard with form inputs
@@ -29,18 +26,35 @@ THEN I am again presented with current and future conditions for that city
 WHEN I open the weather dashboard
 THEN I am presented with the last searched city forecast
 ```
+## Required/Repo Files
+To sucessfully run this program you will need
+> index.html
+> script.js
+> style.css
+> README.md(optional)
+> demo.png(optional)
 
-The following image demonstrates the application functionality:
+## Current Functionality
+> HTML elements populate
+> City search for weather
+> Weather info displayed
+> Forcast info displayed
+> History section populates
 
-![weather dashboard demo](./Assets/06-server-side-apis-homework-demo.png)
+## Missing Functionality
+>History buttons cant be used to show weather/forcast
+>UV index is not displayed
 
-## Review
+## Improvements
+>add error if city is not in API call
+>allow user to specify State/country
+>Imporve general styling
 
-You are required to submit the following for review:
+## developer
 
-* The URL of the deployed application.
+developer: Beni Mahat
+Date: 11/14/2020
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+## Deployed Webpage
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
