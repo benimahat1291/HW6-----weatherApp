@@ -1,64 +1,47 @@
-# 06 Server-Side APIs: Weather Dashboard
+# Weather Dashboard
 
-In this Homework assignment we were tasked to fully deploy our understanding of Jqerry. We had to dynamicly manipulate the DOM. we had to utilize the resourse that is API calls to power our webpage with a huge database of information. We also had to use our local storage to store and retrieve information
 
-Check "demo.png" to view deployed webpage
 
-## General Criteria
-```
-We want a Web page that given a city will give us detailed information about he current weather and about the 5 day forcast. We also want to be able to recall past searches and use that as another method of displaying the cities weather and forcast. 
-```
+## Table of Contents
 
-## Given Criteria
+* [Description](#description)
+* [Links](#links)
+* [Screenshots](#screenshots)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Technologies Used](#technologies)
+* [Questions](#questions)
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-WHEN I open the weather dashboard
-THEN I am presented with the last searched city forecast
-```
-## Required/Repo Files
-To sucessfully run this program you will need
-* index.html
-* script.js
-* style.css
-* README.md(optional)
-* demo.png(optional)
+## Description
 
-## Current Functionality
-* HTML elements populate
-* City search for weather
-* Weather info displayed
-* Forcast info displayed
-* History section populates
+This is a simple vanilla js application that you can use to search a city for the weather and a 5 day forcast. 
 
-## Missing Functionality
-*History buttons cant be used to show weather/forcast
-*UV index is not displayed
 
-## Improvements
-*add error if city is not in API call
-*allow user to specify State/country
-*Imporve general styling
+## Links
 
-## developer
+[Deployed Weather App](https://benimahat1291.github.io/weatherApp/)
 
-developer: Beni Mahat
-Date: 11/14/2020
 
-## Deployed Webpage
+## Screenshots
 
-refrences "demo.png"
+![ Search:](images/sc1.png)
 
-https://benimahat1291.github.io/HW6-----weatherApp/
+## Installation Instructions
+open index.html in you default web browser
+
+## Usage
+
+on the left side there is a search bar where you can search for a city you would like to see the weather in. The history populates with you old searchs. 
+ 
+
+## Technologies Used
+
+HTML, CSS, JS, BootStrap, server side API's
+
+## Questions
+
+If you have further projects and questions, you can find me on Github: [GITHUB](https://github.com/benimahat1291). 
+please visit my portfolio to find contact information: [BENI MAHAT](https://benimahat1291.github.io/Portfolio_v2/#/). 
+
 
 
